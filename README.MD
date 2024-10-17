@@ -25,9 +25,3 @@ El proyecto incluye los siguientes componentes principales:
 
 - Python 3.x
 - Bibliotecas necesarias (ver archivo `requirements.txt`)
-
-### Instalación
-
-1. Clona este repositorio en tu máquina local:
-   ```bash
-   git clone https://github.com/tu-usuario/cripto-parcial.git
