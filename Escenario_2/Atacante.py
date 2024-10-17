@@ -126,5 +126,5 @@ class MitMAttack:
         self.forward_messages()
 
 if __name__ == '__main__':
-    mitm = MitMAttack('127.0.0.1', 5000, '127.0.0.1', 5001)  # Cambiado a puerto 5002
+    mitm = MitMAttack('127.0.0.1', 5001, '127.0.0.1', 5000)  # Cambiado a puerto 5002
     mitm.start_attack()

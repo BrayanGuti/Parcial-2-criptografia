@@ -26,7 +26,7 @@ def decrypt_message(key, ciphertext):
 
 def client_program():
     host = '127.0.0.1'
-    port = 5000
+    port = 5001  # Cambiar a puerto 5001
 
     client_socket = socket.socket()
     client_socket.connect((host, port))
